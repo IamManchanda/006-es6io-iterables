@@ -4,8 +4,12 @@
 
 const cuts = ['Chuck', 'Brisket', 'Shank', 'Short Rib'];
 
+for (const index in cuts) {
+  console.log(cuts[index])
+}
+
 for (const [index, cut] of cuts.entries()) {
-  console.log(`${cut} is the ${index + 1} item.`);
+  console.log(`${cut} is the item.`);
 }
 
 function addUpNumbers() {
